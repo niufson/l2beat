@@ -19,7 +19,7 @@ import { TableEmptyState } from './table-empty-state'
 
 interface BasicEntry {
   slug: string
-  href: string
+  href?: string
   isVerified?: boolean
   redWarning?: string | undefined
   showProjectUnderReview?: boolean
